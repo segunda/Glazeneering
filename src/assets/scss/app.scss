@@ -5,6 +5,8 @@
 @import 'motion-ui';
 
 @import url('https://fonts.googleapis.com/css?family=Open Sans');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -132,6 +134,313 @@ $hero-full-screen-text-color: $white;
       color: $hero-full-screen-text-color;
       font-weight: bold;
     }
+  }
+}
+
+// Footer stuff
+ #engadget-footer-sitemap-container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: rem-calc(0);
+  background-color: $black;
+  
+    #engadget-footer-sitemap { 
+      @include grid-row();
+      color:$light-gray;
+      padding: rem-calc(60) 0;
+      a {
+        color:$light-gray !important;
+        }
+	  .links {
+  	  @include breakpoint(small) {
+        @include grid-layout(2, '.link-column', $grid-column-gutter);
+        }
+      @include breakpoint(large) {
+        @include grid-layout(4, '.link-column', $grid-column-gutter);
+        }
+
+      .link-column:not(:last-child) {
+      border-right:1px solid $light-gray
+      }
+	  }	  
+  }
+}
+#engadget-footer-social-container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: rem-calc(0);
+  background-color: $dark-gray;
+  
+  #engadget-footer-social {
+    @include grid-row();
+	  color:$light-gray;
+	  padding: rem-calc(60) 0;
+	  a {
+  	  color:$light-gray !important;
+  	  }
+    .footer-left {
+		  @include breakpoint(small) {
+		  	@include grid-column(12);
+		  }
+      @include breakpoint(medium) { 
+        @include grid-column(6);
+		  }
+		  @include breakpoint(large) { 
+        @include grid-column(5);
+		  }
+      .input-group-field {
+  	  	background: $white
+      }
+    }
+
+  	.footer-right {
+    	text-align: right;
+      @include breakpoint(small) {
+        @include grid-column(12); 
+      }
+      @include breakpoint(medium) {
+        @include grid-column(6);
+      }
+    }
+    .fa {
+      padding: 0 0 0 0.6rem;
+      }
+    h2 {
+      color: $white;
+      }
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 0;
+    }
+  }
+}
+
+#engadget-footer-contact-details-container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: rem-calc(0);
+  background-color: $white;
+  
+  #engadget-footer-contact-details { 
+    @include grid-row();
+	  color:$dark-gray;
+	  padding: rem-calc(20) 0;
+	  a {
+  	  color:$dark-gray !important;
+  	  }
+	  
+	  .footer-left {
+		@include breakpoint(small) {
+		@include grid-column(12); 
+		li {
+  		display: block;
+  		}
+		text-align: center;
+		}
+		@include breakpoint(medium) {
+		@include grid-column(6); 
+		text-align: left;
+		}
+		 @include breakpoint(large) { 
+		 @include grid-column(8);
+		 ul {
+  		 margin-bottom: 0;
+  		 }
+		li {
+  		display: inline-block
+  		}	 
+		}
+		font-size: 0.9rem;
+		.fa {
+  		padding: 0 0.4rem;
+  		}
+	}
+	.footer-right {
+		@include breakpoint(small) {
+		@include hide-for-only(small);
+		}
+		@include breakpoint(medium) {
+		@include grid-column(6); 
+		}
+		 @include breakpoint(large) {
+		 @include grid-column(4);
+		 text-align: right;
+		 ul {padding-top: 1.6rem;}
+		
+		 
+		}
+		font-size: 0.9rem;
+		.fa {padding: 0 0.4rem;}
+    }
+  }
+}
+
+
+fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+$topbar-responsive-bg: #2c3840;
+$topbar-responsive-animation-type: fade-in; // or use slide-down or none
+
+.topbar-responsive {
+  background: $topbar-responsive-bg;
+  padding: 1rem 1.5rem;
+
+  .topbar-responsive-logo {
+    color: $white;
+    vertical-align: middle;
+  }
+
+  .menu {
+    background: $topbar-responsive-bg;
+
+    li:last-of-type {
+      margin-right: 0;
+    }
+
+    a {
+      color: $white;
+      transition: color 0.15s ease-in;
+
+      &:hover {
+        color: lighten($topbar-responsive-bg, 60%);
+      }
+
+      @media screen and (max-width: 39.9375em) {
+        padding: 0.875rem 0;
+      }
+    }
+
+    .topbar-responsive-button {
+      color: $white;
+      border-color: $white;
+      border-radius: 5000px;
+      transition: color 0.15s ease-in, border-color 0.15s ease-in;
+
+      &:hover {
+        color: lighten($topbar-responsive-bg, 60%);
+        border-color: lighten($topbar-responsive-bg, 60%);
+      }
+
+      @media screen and (max-width: 39.9375em) {
+        width: 100%;
+        margin: 0.875rem 0;
+      }
+    }
+  }
+
+   @media screen and (max-width: 39.9375em) {
+     padding: 0.75rem;
+
+    .top-bar-title {
+      position: relative;
+      width: 100%;
+
+      span {
+        position: absolute;
+        right: 0;
+        border: 1px solid $white;
+        border-radius: 5px;
+        padding: 0.25rem 0.45rem;
+        top: 50%;
+        transform: translateY(-50%);
+
+        .menu-icon {
+          margin-bottom: 4px;
+        }
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity:0;
+  } to {
+    opacity:1;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@include breakpoint(small only) {
+  .topbar-responsive-links {
+    animation-fill-mode: both;
+    animation-duration: 0.5s;
+    width: 100%;
+
+    @if $topbar-responsive-animation-type == slide-down {
+      animation: slideDown 1s ease-in;
+    } @else if $topbar-responsive-animation-type == fade-in {
+      animation: fadeIn 1s ease-in;
+    } @else {
+      animation: none;
+    }
+  }
+}
+
+// Pull Quote
+$pull-quote-maxwidth: 50%;
+$pull-quote-color: $primary-color;
+$pull-quote-offset-large: -25%;
+$pull-quote-offset-medium: -15%;
+$pull-quote-fontsize-medium-up: 1.875rem;
+$pull-quote-fontsize-small: 1.125rem;
+$pull-quote-gradient: true;
+
+.pull-quote {
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-style: normal;
+  font-size: $pull-quote-fontsize-small;
+  max-width: $pull-quote-maxwidth;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  color: $pull-quote-color;
+  float: right;
+  margin: 10px 0 0 20px;
+  @if $pull-quote-gradient == true {
+    background: linear-gradient($secondary-color, $pull-quote-color);
+  } @else if $pull-quote-gradient == false {
+    background: $pull-quote-color; // sets text color
+  }
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  &:before {
+    content: '';
+  }
+
+  &:after {
+    content: '';
+  }
+
+  @include breakpoint(medium) {
+    font-size: $pull-quote-fontsize-medium-up;
+    max-width: calc(#{$pull-quote-maxwidth} - 5%);
+    margin-right: $pull-quote-offset-medium;
+  }
+
+  @include breakpoint(large) {
+    max-width: calc(#{$pull-quote-maxwidth} + 5%);
+    margin-right: $pull-quote-offset-large;
   }
 }
 

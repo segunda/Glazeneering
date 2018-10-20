@@ -27813,6 +27813,17 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()('[data-app-dashboard-toggle-shrink
   e.preventDefault();
   jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).parents('.app-dashboard').toggleClass('shrink-medium').toggleClass('shrink-large');
 });
+jquery__WEBPACK_IMPORTED_MODULE_0___default()(function () {
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).scroll(function () {
+    var winTop = jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).scrollTop();
+
+    if (winTop >= 30) {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").addClass("sticky-shrinknav-wrapper");
+    } else {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").removeClass("sticky-shrinknav-wrapper");
+    }
+  });
+});
 
 /***/ }),
 

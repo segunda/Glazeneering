@@ -2,15 +2,28 @@
 layout: index
 meta-title: Welkom
 ---
+  
 
-<header class="sticky-shrinknav-header">
-  <h1 class="sticky-shrinknav-header-title">Het Atelier</h1>
-  <ul class="menu align-center sticky-shrinknav-menu">
+<header class="sticky-shrinknav-header ">
+ 
+  <div class="row">
+ <div class="columns small-2 large-4"> <img src="https://placehold.it/200x60?text=logo+image" alt=""></div>
+  <div class="columns small-10 large-8"> <h1 class="sticky-shrinknav-header-title">Het Atelier </h1>
+   
+    <p class="">Morbi leo risus, porta ac consectetur ac.</p>
+  </div>
+  
+</row>
+<div class="row">
+  <div class="columns small-12 large-12">
+ <ul class="menu align-center sticky-shrinknav-menu">
     <li><a href="#">Home</a></li>
     <li><a href="#">About</a></li>
     <li><a href="#">Gallery</a></li>
     <li><a href="#">Contact</a></li>
   </ul>
+</div>
+</div>
 </header>
 
 
@@ -18,7 +31,7 @@ meta-title: Welkom
 
  <!-- your content goes here -->
 <div class="row column medium-9 large-7">
-  <p>Welll, dreams, they feel real while we're in them right? Its only when we wake up then we realize that something was actually strange. If we are gonna perform Inception then we need imagination. <q class="pull-quote">"You musn't be afraid to dream a little bigger darling."</q> No creeping doubts? Not feeling persecuted, Dom? Chased around the globe by anonymous corporations and police forces, the way the projections persecute the dreamer? Admit it: you don't believe in one reality anymore. So choose. Choose to be here. Choose me. Great. Thank you. So, now we're trapped in Fischer's mind battling his own private army, and if we get killed, we'll be lost in limbo till our brains turn to scrambled egg. To wake up from that after, after years, after decades... after we'd become old souls thrown back into youth like that... I knew something was wrong with her. She just wouldn't admit it. Eventually, she told me the truth. She was possessed by an idea, this one, very simple idea, that changed everything. That our world wasn't real. That she needed to wake up to come back to reality, that, in order to get back home, we had to kill ourselves.</p>
+  <p>Well, dreams, they feel real while we're in them right? Its only when we wake up then we realize that something was actually strange. If we are gonna perform Inception then we need imagination. <q class="pull-quote">"You musn't be afraid to dream a little bigger darling."</q> No creeping doubts? Not feeling persecuted, Dom? Chased around the globe by anonymous corporations and police forces, the way the projections persecute the dreamer? Admit it: you don't believe in one reality anymore. So choose. Choose to be here. Choose me. Great. Thank you. So, now we're trapped in Fischer's mind battling his own private army, and if we get killed, we'll be lost in limbo till our brains turn to scrambled egg. To wake up from that after, after years, after decades... after we'd become old souls thrown back into youth like that... I knew something was wrong with her. She just wouldn't admit it. Eventually, she told me the truth. She was possessed by an idea, this one, very simple idea, that changed everything. That our world wasn't real. That she needed to wake up to come back to reality, that, in order to get back home, we had to kill ourselves.</p>
 </div>
 
 
@@ -143,6 +156,19 @@ meta-title: Welkom
             </ul>
         </div>
     </footer>
+</div>
+
+<div id="carousel">
+  <carousel-3d :autoplay="true" :autoplay-timeout="2400">
+    <slide :index="0"><img src="https://res.cloudinary.com/ameo/image/upload/v1498843587/kTcPaQR_x77hor.jpg"/></slide>
+    <slide :index="1"><img src="https://unsplash.it/400/300?image=456"/></slide>
+    <slide :index="2"><img src="https://unsplash.it/400/300?image=222"/></slide>
+    <slide :index="3"><img src="https://unsplash.it/400/300?image=1003"/></slide>
+    <slide :index="4"><img src="https://unsplash.it/400/300?image=940"/></slide>
+    <slide :index="5"><img src="https://unsplash.it/400/300?image=944"/></slide>
+    <slide :index="6"><img src="https://source.unsplash.com/mEr7U5yfYt8/400x300"/></slide>
+    <slide :index="7"><img src="https://unsplash.it/400/300?image=1041"/></slide>
+  </carousel-3d>
 </div>
 
 

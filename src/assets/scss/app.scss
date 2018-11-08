@@ -613,7 +613,10 @@ $masonry-css-column-gap: $global-margin;
   margin-bottom: $masonry-css-column-gap;
 }
 
-
+.carousel-3d-slide {
+      height: auto !important;
+      background-color: rgba(0, 0, 0, 0.25) !important;
+    }
 
 
 @import 'components/building-blocks/marketing-site-content-section';

@@ -3,6 +3,15 @@ import whatInput from 'what-input';
 
 window.$ = $;
 
+
+import Vue from 'vue';
+//import Carousel3d from 'vue-carousel-3d';
+import { Carousel3d, Slide } from 'vue-carousel-3d';
+//Vue.use(Carousel3d);
+
+
+
+
 import Foundation from 'foundation-sites';
 // If you want to pick and choose which modules to include, comment out the above and uncomment
 // the line below
@@ -12,7 +21,29 @@ import 'tablesaw/dist/tablesaw.jquery';
 import libs from './lib/dependancies';
 window.libs = libs;
 
+
+
+
+
+
+
+
+
+// Foundation
 $(document).foundation();
+
+//https://github.com/Wlada/vue-carousel-3d
+new Vue({
+  el: '#carousel',
+  data: {
+    slides: 7
+  },
+  components: {
+    'carousel-3d': Carousel3d.Carousel3d,
+    'slide': Carousel3d.Slide
+  }
+})
+console.log('Vue:'+ Vue.config.silent );
 
 libs.AOS.init();
 
@@ -94,3 +125,15 @@ $('[data-app-dashboard-toggle-shrink]').on('click', function(e) {
   e.preventDefault();
   $(this).parents('.app-dashboard').toggleClass('shrink-medium').toggleClass('shrink-large');
 });
+
+$(function() {
+  $(window).scroll(function() {
+    var winTop = $(window).scrollTop();
+    if (winTop >= 30) {
+      $("body").addClass("sticky-shrinknav-wrapper");
+    } else{
+      $("body").removeClass("sticky-shrinknav-wrapper");
+    }
+  });
+});
+

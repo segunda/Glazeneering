@@ -3,6 +3,11 @@
 script:
   - # nothing to do yet
 
+
+  #explicit node version since default is set to old version for other project
+node_js:
+  - "stable"
+
 notifications:
   slack: segundaworkspace:S8qs92xNXQgjBVw6WZeA846i
 

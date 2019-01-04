@@ -4,5 +4,5 @@ script:
   - # nothing to do yet
 
 notifications:
-  email: false
+  slack: segundaworkspace:S8qs92xNXQgjBVw6WZeA846i
 

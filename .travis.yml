@@ -8,6 +8,13 @@ script:
 node_js:
   - "stable"
 
+# whitelist
+branches:
+  only:
+    - master
+    - develop
+
+
 notifications:
   slack: segundaworkspace:S8qs92xNXQgjBVw6WZeA846i
 

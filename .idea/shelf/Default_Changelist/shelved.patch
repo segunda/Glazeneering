@@ -1,0 +1,157 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"046e7901-c1a6-454e-a817-1b00800f56eb\" name=\"Default Changelist\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\n    </list>\n    <ignored path=\"$PROJECT_DIR$/.tmp/\" />\n    <ignored path=\"$PROJECT_DIR$/temp/\" />\n    <ignored path=\"$PROJECT_DIR$/tmp/\" />\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileEditorManager\">\n    <leaf>\n      <file pinned=\"false\" current-in-tab=\"true\">\n        <entry file=\"file://$PROJECT_DIR$/index.html\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"105\">\n              <caret line=\"7\" lean-forward=\"true\" selection-start-line=\"3\" selection-end-line=\"7\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n    </leaf>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"IdeDocumentHistory\">\n    <option name=\"CHANGED_PATHS\">\n      <list>\n        <option value=\"$PROJECT_DIR$/index.html\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"ProjectFrameBounds\" extendedState=\"1\">\n    <option name=\"x\" value=\"76\" />\n    <option name=\"y\" value=\"114\" />\n    <option name=\"width\" value=\"1511\" />\n    <option name=\"height\" value=\"936\" />\n  </component>\n  <component name=\"ProjectView\">\n    <navigator proportions=\"\" version=\"1\">\n      <foldersAlwaysOnTop value=\"true\" />\n    </navigator>\n    <panes>\n      <pane id=\"ProjectPane\">\n        <subPane>\n          <expand>\n            <path>\n              <item name=\"Glazeneering\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"Glazeneering\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n          </expand>\n          <select />\n        </subPane>\n      </pane>\n      <pane id=\"Scope\" />\n    </panes>\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"nodejs_interpreter_path\" value=\"node\" />\n    <property name=\"nodejs_interpreter_path.stuck_in_default_project\" value=\"undefined stuck path\" />\n    <property name=\"nodejs_npm_path_reset_for_default_project\" value=\"true\" />\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"settings.nodejs\" />\n  </component>\n  <component name=\"RunDashboard\">\n    <option name=\"ruleStates\">\n      <list>\n        <RuleState>\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\n        </RuleState>\n        <RuleState>\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\n        </RuleState>\n      </list>\n    </option>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"046e7901-c1a6-454e-a817-1b00800f56eb\" name=\"Default Changelist\" comment=\"\" />\n      <created>1544183830852</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1544183830852</updated>\n      <workItem from=\"1544183832196\" duration=\"1878000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TimeTrackingManager\">\n    <option name=\"totallyTimeSpent\" value=\"1878000\" />\n  </component>\n  <component name=\"ToolWindowManager\">\n    <frame x=\"76\" y=\"114\" width=\"1511\" height=\"936\" extended-state=\"1\" />\n    <editor active=\"true\" />\n    <layout>\n      <window_info id=\"npm\" side_tool=\"true\" />\n      <window_info id=\"Gulp\" side_tool=\"true\" />\n      <window_info id=\"Favorites\" side_tool=\"true\" />\n      <window_info content_ui=\"combo\" id=\"Project\" order=\"0\" visible=\"true\" weight=\"0.17441078\" />\n      <window_info id=\"Structure\" order=\"1\" side_tool=\"true\" weight=\"0.25\" />\n      <window_info anchor=\"bottom\" id=\"Docker\" show_stripe_button=\"false\" />\n      <window_info active=\"true\" anchor=\"bottom\" id=\"Version Control\" visible=\"true\" weight=\"0.76363635\" />\n      <window_info anchor=\"bottom\" id=\"Terminal\" weight=\"0.32969698\" />\n      <window_info anchor=\"bottom\" id=\"Event Log\" sideWeight=\"0.50048125\" side_tool=\"true\" weight=\"0.32969698\" />\n      <window_info anchor=\"bottom\" id=\"Message\" order=\"0\" />\n      <window_info anchor=\"bottom\" id=\"Find\" order=\"1\" />\n      <window_info anchor=\"bottom\" id=\"Run\" order=\"2\" sideWeight=\"0.49951878\" weight=\"0.32969698\" />\n      <window_info anchor=\"bottom\" id=\"Debug\" order=\"3\" weight=\"0.4\" />\n      <window_info anchor=\"bottom\" id=\"Cvs\" order=\"4\" weight=\"0.25\" />\n      <window_info anchor=\"bottom\" id=\"Inspection\" order=\"5\" weight=\"0.4\" />\n      <window_info anchor=\"bottom\" id=\"TODO\" order=\"6\" />\n      <window_info anchor=\"right\" id=\"Commander\" internal_type=\"SLIDING\" order=\"0\" type=\"SLIDING\" weight=\"0.4\" />\n      <window_info anchor=\"right\" id=\"Ant Build\" order=\"1\" weight=\"0.25\" />\n      <window_info anchor=\"right\" content_ui=\"combo\" id=\"Hierarchy\" order=\"2\" weight=\"0.25\" />\n    </layout>\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"1\" />\n  </component>\n  <component name=\"Vcs.Log.History.Properties\">\n    <option name=\"SHOW_DETAILS\" value=\"true\" />\n    <option name=\"SHOW_OTHER_BRANCHES\" value=\"true\" />\n    <option name=\"COLUMN_ORDER\">\n      <list>\n        <option value=\"0\" />\n        <option value=\"2\" />\n        <option value=\"3\" />\n        <option value=\"1\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"editorHistoryManager\">\n    <entry file=\"file://$PROJECT_DIR$/index.html\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"105\">\n          <caret line=\"7\" lean-forward=\"true\" selection-start-line=\"3\" selection-end-line=\"7\" />\n        </state>\n      </provider>\n    </entry>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision df166dbcf9271281b1c80f7f5dab9b8522e621d6)
++++ .idea/workspace.xml	(date 1544188306000)
+@@ -2,7 +2,7 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="046e7901-c1a6-454e-a817-1b00800f56eb" name="Default Changelist" comment="">
+-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <ignored path="$PROJECT_DIR$/.tmp/" />
+     <ignored path="$PROJECT_DIR$/temp/" />
+@@ -15,11 +15,32 @@
+   </component>
+   <component name="FileEditorManager">
+     <leaf>
+-      <file pinned="false" current-in-tab="true">
++      <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/index.html">
+           <provider selected="true" editor-type-id="text-editor">
+             <state relative-caret-position="105">
+-              <caret line="7" lean-forward="true" selection-start-line="3" selection-end-line="7" />
++              <caret line="7" selection-start-line="3" selection-end-line="7" />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/src/assets/js/app.js">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="233">
++              <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
++              <folding>
++                <element signature="e#0#23#0" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/.gitignore">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="15">
++              <caret line="1" selection-start-line="1" selection-end-line="1" />
+             </state>
+           </provider>
+         </entry>
+@@ -33,10 +54,11 @@
+     <option name="CHANGED_PATHS">
+       <list>
+         <option value="$PROJECT_DIR$/index.html" />
++        <option value="$PROJECT_DIR$/src/assets/js/app.js" />
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectFrameBounds" extendedState="1">
++  <component name="ProjectFrameBounds">
+     <option name="x" value="76" />
+     <option name="y" value="114" />
+     <option name="width" value="1511" />
+@@ -53,6 +75,30 @@
+             <path>
+               <item name="Glazeneering" type="b2602c69:ProjectViewProjectNode" />
+               <item name="Glazeneering" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="Glazeneering" type="b2602c69:ProjectViewProjectNode" />
++              <item name="Glazeneering" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="Glazeneering" type="b2602c69:ProjectViewProjectNode" />
++              <item name="Glazeneering" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++              <item name="assets" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="Glazeneering" type="b2602c69:ProjectViewProjectNode" />
++              <item name="Glazeneering" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++              <item name="assets" type="462c0819:PsiDirectoryNode" />
++              <item name="js" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="Glazeneering" type="b2602c69:ProjectViewProjectNode" />
++              <item name="Glazeneering" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++              <item name="pages" type="462c0819:PsiDirectoryNode" />
+             </path>
+           </expand>
+           <select />
+@@ -91,16 +137,15 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1544183830852</updated>
+-      <workItem from="1544183832196" duration="1878000" />
++      <workItem from="1544183832196" duration="4263000" />
+     </task>
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="1878000" />
++    <option name="totallyTimeSpent" value="4263000" />
+   </component>
+   <component name="ToolWindowManager">
+-    <frame x="76" y="114" width="1511" height="936" extended-state="1" />
+-    <editor active="true" />
++    <frame x="76" y="114" width="1511" height="936" extended-state="0" />
+     <layout>
+       <window_info id="npm" side_tool="true" />
+       <window_info id="Gulp" side_tool="true" />
+@@ -108,8 +153,8 @@
+       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17441078" />
+       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.76363635" />
+-      <window_info anchor="bottom" id="Terminal" weight="0.32969698" />
++      <window_info anchor="bottom" id="Version Control" weight="0.76363635" />
++      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5418182" />
+       <window_info anchor="bottom" id="Event Log" sideWeight="0.50048125" side_tool="true" weight="0.32969698" />
+       <window_info anchor="bottom" id="Message" order="0" />
+       <window_info anchor="bottom" id="Find" order="1" />
+@@ -139,10 +184,27 @@
+     </option>
+   </component>
+   <component name="editorHistoryManager">
++    <entry file="file://$PROJECT_DIR$/.gitignore">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="15">
++          <caret line="1" selection-start-line="1" selection-end-line="1" />
++        </state>
++      </provider>
++    </entry>
+     <entry file="file://$PROJECT_DIR$/index.html">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="105">
+-          <caret line="7" lean-forward="true" selection-start-line="3" selection-end-line="7" />
++          <caret line="7" selection-start-line="3" selection-end-line="7" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/assets/js/app.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="233">
++          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
++          <folding>
++            <element signature="e#0#23#0" expanded="true" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
